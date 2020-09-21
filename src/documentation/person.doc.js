@@ -20,14 +20,14 @@
  *   "status": "SUCCESS",
  *   "errors": null,
  *   "data": {
- *       "id": "peVv4Vw5EE9CLpn4sZKm",
+ *       "id": "eb9nNeMGrw0TkTYjf7Ou",
  *       "name": "string",
  *       "cpf": "11181376980",
  *       "cityCode": 4106902,
  *       "calculations": [
  *           "Curitiba",
  *           4106902,
- *           "Os dois ultimos digitos do cpf multiplicado pelo código da cidade 328552160"
+ *           "Os dois ultimos digitos do cpf multiplicados pelo código da cidade é igual a: 328552160"
  *       ]
  *   },
  *   "timestamp": 1600661296636
