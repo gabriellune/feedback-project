@@ -2,7 +2,7 @@ import { FirestoreInstance } from "./firestore-instance"
 import { Firestore } from "@google-cloud/firestore";
 
 export abstract class BaseRepository {
-    
+
     private nameCollection: string
     private firebaseDb: Firestore = FirestoreInstance.getInstance()
 

@@ -1,6 +1,6 @@
-import PersonRepository from "src/repository/person.repository"
-import Person from "src/domain/person.domain"
 import { Injectable } from "@nestjs/common"
+import Person from "src/domain/person.domain"
+import PersonRepository from "src/repository/person.repository"
 
 @Injectable()
 export default class SavePerson {
@@ -10,7 +10,8 @@ export default class SavePerson {
     ) { }
 
     async create(person: Person): Promise<Person> {
-        
-        return this.repository.save(person)
+
+        await this.repository.save(person)
+        return person
     }
 }

@@ -20,8 +20,3 @@ export class FirestoreInstance {
     return this.instance.firestore
   }
 }
-
-
-
-
-
